@@ -1,0 +1,33 @@
+# -------------------- DJANGO --------------------
+backend/db.sqlite3
+backend/*.log
+backend/.env
+backend/env/
+backend/venv/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*.pyc
+backend/media/
+backend/staticfiles/
+
+# -------------------- FLUTTER --------------------
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/android/.gradle/
+frontend/android/app/debug
+frontend/android/app/profile
+frontend/android/app/release
+
+# -------------------- VS CODE --------------------
+.vscode/
+
+# -------------------- OS FILES --------------------
+.DS_Store
+Thumbs.db
